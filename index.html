@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Kids Math</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Kids Math</h1>
+            <div class="operations">
+                <div class="add">ADD</div>
+                <div class="subtract">SUBTRACT</div>
+                <div class="multiply">MULTIPLY</div>
+                <div class="divide">DIVIDE</div>
+            </div>
+        </div>
+        <div class="step1">
+            <h2>Step 1</h2>
+            <div class="middle">
+            <div class="equation">
+                <div class="eq red-number">1</div>
+                <div class="eq operator">+</div>
+                <div class="eq yellow-number">12</div>
+                <div class="eq equal">=</div>
+                <div class="eq question">?</div>
+            </div>
+        </div>
+            <div class="guesses">
+                <div class="answer answer-1">8</div>
+                <div class="answer answer-2">13</div>
+                <div class="answer answer-3">9</div>
+            </div>
+        </div>
+        <div class="panel">
+            <div class="button">New equation</div>
+        </div>
+        <div class="step2">
+            <h2>Step 2</h2>
+            <div class="section">
+                <form action="example.html" method="POST" class="form">
+                    <label>10 + 8</label>
+                    <input name="number" type="text" size="10" autocomplete="off">
+                </form>   
+                <form action="example.html" method="POST" class="form">
+                    <label>10 + 8</label>
+                    <input name="number" type="text" size="10" autocomplete="off">
+                </form>    
+                <form action="example.html" method="POST" class="form">
+                    <label>10 + 8</label>
+                    <input name="number" type="text" size="10" autocomplete="off">
+                </form>
+                <form action="example.html" method="POST" class="form">
+                    <label>10 + 8</label>
+                    <input name="number" type="text" size="10" autocomplete="off">
+                </form>
+                <form action="example.html" method="POST" class="form">
+                    <label>10 + 8</label>
+                    <input name="number" type="text" size="10" autocomplete="off">
+                </form>
+            </div>
+            <div class="section">
+                <form action="example.html" method="POST" class="form">
+                    <label>10 + 8</label>
+                    <input name="number" type="text" size="10" autocomplete="off">
+                </form>   
+                <form action="example.html" method="POST" class="form">
+                    <label>10 + 8</label>
+                    <input name="number" type="text" size="10" autocomplete="off">
+                </form>    
+                <form action="example.html" method="POST" class="form">
+                    <label>10 + 8</label>
+                    <input name="number" type="text" size="10" autocomplete="off">
+                </form>
+                <form action="example.html" method="POST" class="form">
+                    <label>10 + 8</label>
+                    <input name="number" type="text" size="10" autocomplete="off">
+                </form>
+                <form action="example.html" method="POST" class="form">
+                    <label>10 + 8</label>
+                    <input name="number" type="text" size="10" autocomplete="off">
+                </form>
+            </div>
+            <div class="text">You got 4 of 10 right</div>
+            <div class="control">Control !</div>
+           
+        </div>
+        <div class="panel">
+            <div class="button button--2">New equations</div>
+        </div>
+        <div class="step3" id ="step3">
+            <h2>Step 3</h2>
+            <div class="drag-and-drop">
+                <div class="numbercolumn">
+                    <div>19 + 1 = </div>
+                    <div>19 + 1 = </div>
+                    <div>19 + 1 = </div>
+                    <div>19 + 1 = </div>
+                    <div>19 + 1 = </div>
+                    <div>19 + 1 = </div>
+                    <div>19 + 1 = </div>
+                    <div>19 + 1 = </div>
+                    <div>19 + 1 = </div>
+                    <div>19 + 1 = </div>
+                </div>
+                <div class="dropcolumn">
+                    <div id="dropped"></div>
+                    <div id="dropped"></div>
+                    <div id="dropped"></div>
+                    <div id="dropped"></div>
+                    <div id="dropped"></div>
+                    <div id="dropped"></div>
+                    <div id="dropped"></div>
+                    <div id="dropped"></div>
+                    <div id="dropped"></div>
+                    <div id="dropped"></div>
+                </div>
+                <div class="dragcolumn">
+                    <div class="drag distance-close" draggable="true" id="drag1">6</div>
+                    <div class="drag distance-far" draggable="true" id="drag2">>6</div>
+                    <div class="drag distance-close" draggable="true" id="drag3">6</div>
+                    <div class="drag distance-far" draggable="true" id="drag4">6</div>
+                    <div class="drag distance-close" draggable="true" id="drag5">6</div>
+                    <div class="drag distance-far" draggable="true" id="drag6">6</div>
+                    <div class="drag distance-close" draggable="true" id="drag7">6</div>
+                    <div class="drag distance-far" draggable="true" id="drag8">6</div>
+                    <div class="drag distance-close" draggable="true" id="drag9">6</div>
+                    <div class="drag distance-far" draggable="true" id="drag10">6</div>
+                </div>
+            </div>
+            <div class="text-3">You got 4 of 10 right</div>
+            <div class="dragcontrol">Control !</div>
+        </div>
+        <div class="panel">
+            <div class="button button--3">New equations</div>
+        </div>
+        </div>
+  
+    </div>
+    <script src="step1.js"></script>
+    <script src="step2.js"></script>
+    <script src="step3.js"></script>
+</body>
+</html>
